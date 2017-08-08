@@ -81,6 +81,9 @@
   - Specialize in the Power architecture
   - Dabble and evaluate emerging technologies for ATS, whitepapers etc.
   - Previously working as a AIX/Linux Admin for a government agency for 5 years
+--boldon
+  - Giving a talk on NMON at FOSSCON
+--boldoff
 
   ###########################################tttttttttt###########################################  
   #####################################tttt#######################################################  
@@ -313,7 +316,7 @@ User -> Keystone -> Nova API -> Nova DB --              Nova Scheduler
 --boldoff
   - Sr. Linux Admin   \
   - Jr. Network Admin  \
-                        ------ OpenStack Operator/Architect
+                        ------ OpenStack Operator1/Architect
   - Jr. Storage Admin  /
   - Jr. Developer     /
 ---
@@ -345,6 +348,35 @@ User -> Keystone -> Nova API -> Nova DB --              Nova Scheduler
   - #openstack
 
 --newpage
+--heading OpenStack Certifications
+--withborder
+
+--boldon
+* Certs
+--boldoff
+  - OpenStack Foundation: COA
+    - $300
+    - Linux Foundation
+    - Virtual / @ home
+    - Ubuntu or SuSE (pick SuSE)
+  - Vendors
+    - SUSE Certified Administrator (SCA) in OpenStack Cloud
+    - Red Hat Certified System Administrator in Red Hat OpenStack
+--boldon
+* COA Details
+--boldoff
+  - Based on Newton
+  - Valid for 36 months
+  - Great certification, challenging but not stupid.
+  - You can use docs.openstack.org
+  - You can use the UI or CLI
+  - A lot of questions regarding networking, floating ips, and the like
+  - Pay CLOSE attention to what project/domain/user you're supposed to be using, easy way to fail
+  - You get one free retry if you fail
+---
+
+
+--newpage
 --boldon
 --center ###### # #    # #  ####  #    # ###### #####  
 --center #      # ##   # # #      #    # #      #    # 
@@ -352,4 +384,5 @@ User -> Keystone -> Nova API -> Nova DB --              Nova Scheduler
 --center #      # #  # # #      # #    # #      #    # 
 --center #      # #   ## # #    # #    # #      #    # 
 --center #      # #    # #  ####  #    # ###### #####  
+--center https://github.com/awojnarek/openstack101
 --boldoff
